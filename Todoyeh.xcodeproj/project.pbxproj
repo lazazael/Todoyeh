@@ -13,6 +13,7 @@
 		6F6CA522215BEDE9005CE4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6CA521215BEDE9005CE4D1 /* Assets.xcassets */; };
 		6F6CA525215BEDE9005CE4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6CA523215BEDE9005CE4D1 /* LaunchScreen.storyboard */; };
 		6F6CA530215C118C005CE4D1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CA52F215C118C005CE4D1 /* Item.swift */; };
+		6F6CA534215D7355005CE4D1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6F6CA533215D7355005CE4D1 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +24,8 @@
 		6F6CA521215BEDE9005CE4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F6CA524215BEDE9005CE4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F6CA526215BEDE9005CE4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F6CA52C215C09A6005CE4D1 /* MyPlayground_UserDefaults.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground_UserDefaults.playground; path = ../../MyPlayground_UserDefaults.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6F6CA52F215C118C005CE4D1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6F6CA533215D7355005CE4D1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +62,6 @@
 				6F6CA531215C1194005CE4D1 /* Model */,
 				6F6CA52D215C115C005CE4D1 /* Controller */,
 				6F6CA52E215C116C005CE4D1 /* View */,
-				6F6CA52C215C09A6005CE4D1 /* MyPlayground_UserDefaults.playground */,
 				6F6CA532215C11AC005CE4D1 /* Supporting Files */,
 				6F6CA526215BEDE9005CE4D1 /* Info.plist */,
 			);
@@ -97,6 +97,7 @@
 		6F6CA532215C11AC005CE4D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F6CA533215D7355005CE4D1 /* .gitignore */,
 				6F6CA521215BEDE9005CE4D1 /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
@@ -160,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6CA534215D7355005CE4D1 /* .gitignore in Resources */,
 				6F6CA525215BEDE9005CE4D1 /* LaunchScreen.storyboard in Resources */,
 				6F6CA522215BEDE9005CE4D1 /* Assets.xcassets in Resources */,
 				6F6CA520215BEDE4005CE4D1 /* Main.storyboard in Resources */,
